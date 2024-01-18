@@ -9,6 +9,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import {
   ChevronLeft,
   ChevronRight,
+  Hourglass,
   LogOut,
   Pause,
   Play,
@@ -17,7 +18,6 @@ import {
 import { Button } from "@/components/ui/button";
 import { useKeyboardShortcut } from "@/hooks/useKeyboardShortcut";
 import { Progress } from "@/components/ui/progress";
-import { shuffle } from "@/lib/utils";
 interface DrawingShellProps {
   imagePathList: string[];
   drawingTimeInterval: number;
@@ -147,7 +147,7 @@ export function DrawingShell({
 
             <p className="flex items-center justify-center">
               {/*{`${currentImageIndex + 1} / ${imagePaths.length}`}*/}
-              {drawingTimeCountdown}
+              {drawingTimeCountdown > 60 ? <Hourglass /> : drawingTimeCountdown}
             </p>
 
             <Button

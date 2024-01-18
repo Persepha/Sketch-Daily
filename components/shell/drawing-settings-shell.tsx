@@ -14,7 +14,6 @@ import {
   SelectContent,
   SelectGroup,
   SelectItem,
-  SelectLabel,
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
@@ -102,6 +101,8 @@ export function DrawingSettingsShell({
                 <SelectItem value="30">30 sec</SelectItem>
                 <SelectItem value="45">45 sec</SelectItem>
                 <SelectItem value="60">1 min</SelectItem>
+                <SelectItem value="120">2 min</SelectItem>
+                <SelectItem value="300">5 min</SelectItem>
               </SelectGroup>
             </SelectContent>
           </Select>
