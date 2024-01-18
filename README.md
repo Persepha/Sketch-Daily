@@ -15,14 +15,14 @@ Simple app for gesture drawing built in React and Tauri
 
 Sketch settings
 
-![App Screenshot](preview/2.PNG)
+![App Screenshot](preview/2.png)
 
-![App Screenshot](preview/1.PNG)
+![App Screenshot](preview/1.png)
 
 Drawing
-![App Screenshot](preview/3.PNG)
+![App Screenshot](preview/3.png)
 
-![App Screenshot](preview/4.PNG)
+![App Screenshot](preview/4.png)
 
 
 
